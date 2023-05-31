@@ -47,6 +47,21 @@ li a {
     justify-content: center;
     margin-top: 10px;
 }
+
 .homePicture{
     margin-top: 10px;
+}
+
+.leftPicture{
+    float:left;
+    margin: 10px;
+}
+
+.leftPictureTxt{
+    color:antiquewhite;
+    margin-right:50%
+}
+.rightPicture{
+    float:right;
+    
 }
