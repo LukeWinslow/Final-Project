@@ -13,6 +13,10 @@ p{
     color:antiquewhite;
     margin-left: 5px ;
 }
+.innerPageCenter{
+    color:antiquewhite;
+    text-align: center;
+}
 .title{
     color:antiquewhite;
     text-align: center;
@@ -64,6 +68,10 @@ li a {
 .rightPicture{
     float:right;
 }
-.sword{
-    
+.stab{
+    border-radius: 1px;
+    background: red;
+    position: absolute;
+    width: 5px;
+    height: 20px;
 }

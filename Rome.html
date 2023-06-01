@@ -41,6 +41,27 @@
                 Ancient Rome's legacy in governance, law, engineering, and culture continues to shape our world today.
                 If you would like to look more in-depth on the ancient Roman society this is a link to a wikipedia page. 
                 <a href="https://en.wikipedia.org/wiki/Ancient_Greece"> Ancient Rome </a>
-            </p2>
+            </p>
         </div>
-    </html>
+        <div class = "title">
+            <h1><u>Destroy the Dictator - Julius Caesar</u></h1>
+        </div>
+        <div class = "picture">
+            <img id = "Ceaser" src="Images/JuliusCeaser.jpg"
+            width="400px">
+        </div>
+        <div class = "innerPageCenter">
+            <p>Julius Caesar was a dictator that took over rome for a period of time. By the end of his reign he was stabbed to death. You must now take down the tyrant!!!</p>
+        </div>
+        <script>
+            $("#Ceaser").on("click", function(event) {
+                var $stab = $("<div></div>");
+                $stab.addClass("stab");
+                $stab.appendTo("body");
+                $stab.css("position", "absolute")
+                $stab.css("top", event.pageY + "px");
+                $stab.css("left", event.pageX + "px");
+                })
+        </script>
+    </body>
+</html>
